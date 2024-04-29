@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "name": "spotify",
+    "slug": "spotify",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
