@@ -5,9 +5,28 @@
       "bundler": "metro"
     },
     "name": "spotify",
-    "slug": "spotify",
+    "slug": "clip",
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "5e0451bc-84d3-4c3d-b8c1-4f9f0a52699c"
+      }
+    },
+    "android": {
+      "package": "com.do_one.spotify"
+    },
+    "owner": "do_one",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/5e0451bc-84d3-4c3d-b8c1-4f9f0a52699c"
+    },
+    "ios": {}
   }
 }
